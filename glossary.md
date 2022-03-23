@@ -14,3 +14,8 @@ including by open source projects, vendors, standards groups, analysts, journali
 * Bag-of-words #nlp
   * is a simplifying representation used in natural language processing and information retrieval. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. 
   * SeeAlso:: https://www.wikiwand.com/en/Bag-of-words_model
+* Relational Dataset Repository (RDR) #dataset #metadata
+  * having famous public dataset but in easier form as database (MariaDB).
+  * MoveLens on RDR: https://relational.fit.cvut.cz/dataset/MovieLens
+  * IMDb on RDR: https://relational.fit.cvut.cz/dataset/IMDb
+  * SeeAlso:: https://relational.fit.cvut.cz/
