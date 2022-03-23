@@ -5,6 +5,8 @@ This repo is built by lazy technicians for lazier technicians.
 The terms and assets could expand from streaming technologies to player, DRM, recommender systems, data scient, machine learning, VR, web3, and ... 
 you name it.
 
+The reulsting glossary is [here](glossary.md).
+
 Contribution and fork is welcome.
 Kindly refer to our Code Of Conduct [here](code_of_conduct.md) before contributing.
 
