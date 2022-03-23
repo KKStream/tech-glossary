@@ -11,6 +11,6 @@ including by open source projects, vendors, standards groups, analysts, journali
 
 ## Glossary
 
-* Bag-of-words
+* Bag-of-words #nlp
   * is a simplifying representation used in natural language processing and information retrieval. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. 
   * SeeAlso:: https://www.wikiwand.com/en/Bag-of-words_model
