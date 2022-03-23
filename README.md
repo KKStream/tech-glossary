@@ -46,3 +46,11 @@ You can follow updates on the development of our glossary, here.
 
 - 2022-03-23:
   - Project kicks off.
+
+## References
+
+- [Developer Glossary](https://github.com/do-community/developer-glossary)
+- [Open Glossary of Edge Computing](https://github.com/State-of-the-Edge/glossary)
+- [Cloud Native Glossary](https://github.com/cncf/glossary)
+- [计算机科学词汇表](https://github.com/JuanitoFatas/Computer-Science-Glossary)
+- [Machine Learning Glossary](https://github.com/bfortuner/ml-glossary)
