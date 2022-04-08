@@ -27,3 +27,6 @@ including by open source projects, vendors, standards groups, analysts, journali
     - Relationships: properties that connect two classes.
     - Attributes: properties that describe an individual class.
   - SeeAlso:: https://enterprise-knowledge.com/whats-the-difference-between-an-ontology-and-a-knowledge-graph/
+- Multi-model database
+  - is a database that can store, index and query data in more than one model. For some time, databases have primarily supported only one model, such as: relational database, document-oriented database, graph database or triplestore. A database that combines many of these is multi-model.
+  - SeeAlso:: https://www.wikiwand.com/en/Multi-model_database
