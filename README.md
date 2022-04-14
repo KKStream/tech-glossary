@@ -2,7 +2,7 @@
 
 A community-friendly glossary of technical terms and assets (datasets, tools, or services) related to streaming industry.
 This repo is built by lazy technicians for lazier technicians.
-The terms and assets could expand from streaming technologies to player, DRM, recommender systems, data scient, machine learning, VR, web3, and ... 
+The terms and assets could expand from streaming technologies to player, DRM, recommender systems, data scient, machine learning, VR, web3, and ...
 you name it.
 
 The reulsting glossary is [here](glossary.md).
@@ -20,14 +20,15 @@ If you see that the glossary is missing a term, we would love your help in addin
 
 1. We use markdown format because we are too lazy.
 2. We start from overview-like format, all terms or assets in one markdown file, [glossary.md], first.
-3. Every term or asset is a bullet item, followed by one-linear description and some futher sub- bullet points for supplementary info.
+3. Every term or asset is a header, followed by a one-liner description and some futher sub- bullet points for supplementary info.
 
 ### Example
 
 ```markdown
-- Bag-of-words
-  - is a simplifying representation used in natural language processing and information retrieval. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity. 
-  - SeeAlso:: https://www.wikiwand.com/en/Bag-of-words_model
+### Bag-of-words
+
+- is a simplifying representation used in natural language processing and information retrieval. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.
+- SeeAlso:: https://www.wikiwand.com/en/Bag-of-words_model
 ```
 
 ## Language Use Guidelines
