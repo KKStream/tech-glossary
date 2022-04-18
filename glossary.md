@@ -17,6 +17,28 @@ including by open source projects, vendors, standards groups, analysts, journali
 - SeeAlso:: https://www.wikiwand.com/en/Bag-of-words_model
 - Tags:: NLP
 
+### Charbonnier loss
+
+- is a loss function to approximate the L1 loss, i.e. absolute value function, while being differentiable at 0.
+- Usually being applied in image-to-image comparison tasks, e.g. super-resolution.
+- Tags:: loss function
+
+### Convolutional neural network (CNN)
+
+- A CNN is a foundamental deep learning model to simulate how human perceive things in terms of their closeness, either space or time.
+- It is widely used, but not limited to, in computer vision because visual patterns are usually formed by their surrounding visual information.
+- Tags:: CV, deep learning
+
+### Language model
+
+- A language model defines how words in natural languages related to each other.
+- A [bag-of-words](#bag-of-words) model is a language model without sequential information.
+
+### Long short-term memory (LSTM)
+
+- A LSTM is an improved [RNN](#recurrent-neural-network-rnn) simulating how human memorizes and forgets things. It learns a gating mechanism to filter the informative data for the task.
+- Tags:: deep learning
+
 ### Multi-model database
 
 - is a database that can store, index and query data in more than one model. For some time, databases have primarily supported only one model, such as: relational database, document-oriented database, graph database or triplestore. A database that combines many of these is multi-model.
@@ -32,6 +54,12 @@ including by open source projects, vendors, standards groups, analysts, journali
   - Attributes: properties that describe an individual class.
 - SeeAlso:: https://enterprise-knowledge.com/whats-the-difference-between-an-ontology-and-a-knowledge-graph/
 - Tags:: data_model
+
+### Recurrent neural network (RNN)
+
+- A RNN is a foundamental deep learning model to simulate how human perceive things in sequential order.
+- It is widely used in natural language tasks and time-series analysis.
+- Tags:: deep learning, NLP
 
 ### Relational Dataset Repository (RDR)
 
