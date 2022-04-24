@@ -11,6 +11,12 @@ including by open source projects, vendors, standards groups, analysts, journali
 
 ## Glossary
 
+### Attention mechanism
+
+- was introduced to improve the performance of the encoder-decoder model for machine translation. The idea behind the attention mechanism was to permit the decoder to utilize the most relevant parts of the input sequence in a flexible manner, by a weighted combination of all of the encoded input vectors, with the most relevant vectors being attributed the highest weights. 
+- SeeAlso:: https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
+- Tags:: deep learning
+
 ### Bag-of-words
 
 - is a simplifying representation used in natural language processing and information retrieval. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.
