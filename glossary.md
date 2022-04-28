@@ -13,7 +13,8 @@ including by open source projects, vendors, standards groups, analysts, journali
 
 ### Attention mechanism
 
-- was introduced to improve the performance of the encoder-decoder model for machine translation. The idea behind the attention mechanism was to permit the decoder to utilize the most relevant parts of the input sequence in a flexible manner, by a weighted combination of all of the encoded input vectors, with the most relevant vectors being attributed the highest weights. 
+- was introduced to improve the performance of the encoder-decoder model for machine translation. The idea behind the attention mechanism was to permit the decoder to utilize the most relevant parts of the input sequence in a flexible manner, by a weighted combination of all of the encoded input vectors, with the most relevant vectors being attributed the highest weights.
+- A self-attention means the contextual information, i.e. the weight to the input, comes from the input itself.
 - SeeAlso:: https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
 - Tags:: deep learning
 
@@ -25,20 +26,41 @@ including by open source projects, vendors, standards groups, analysts, journali
 
 ### Charbonnier loss
 
-- is a loss function to approximate the L1 loss, i.e. absolute value function, while being differentiable at 0.
+- A loss function to approximate the L1 loss, i.e. absolute value function, while being differentiable at 0.
 - Usually being applied in image-to-image comparison tasks, e.g. super-resolution.
 - Tags:: loss function
 
 ### Convolutional neural network (CNN)
 
-- A CNN is a foundamental deep learning model to simulate how human perceive things in terms of their closeness, either space or time.
-- It is widely used, but not limited to, in computer vision because visual patterns are usually formed by their surrounding visual information.
+- A foundamental deep learning model to simulate how human perceive things in terms of their closeness, usually space or time.
+- It is widely used, but not limited to, in computer vision because visual patterns are usually formed by their surrounding information.
 - Tags:: CV, deep learning
+
+### Data augmentation
+
+- This term generally refers to a set of data preprocessing methods to increase the diversity of input data for training a noise-tolerant model and to avoid overfitting.
+- For example, in computer vision, an input image may be transformed by random rotation, random cropping, brightness adjustment, or other transformations and their combinations.
+
+### Dropout
+
+- Dropout is a layer used in deep neural network to avoid overfitting by randomly masking (dropping) the output of a neuron in each iteration.
+- In forward propagation, the outputs of masked neurons are 0, so they does not contribute to the next layer.
+- In backward propagation, the gradients of masked neurons are also 0, so they does not get updated.
+- Tags:: deep learning, regularization
+
+### Knowledge Graph (KG)
+
+- A graph structure used to represent the entities (nodes) and their relations (edges) of real-world knowledges.
+- Entities are usually nouns or adjectives, representing a real object, a virtual concept, or an attribute.
+- Relations are usually verbs, representing how two entities interact with each other, e.g. has, involves in, consists of, etc.
+- A knowledge graph is an implementation of [Ontology](#ontology).
+- Tags:: data model
 
 ### Language model
 
 - A language model defines how words in natural languages related to each other.
-- A [bag-of-words](#bag-of-words) model is a language model without sequential information.
+- [Bag-of-words](#bag-of-words) is a language model without sequential information.
+- Tags:: NLP
 
 ### Long short-term memory (LSTM)
 
@@ -59,7 +81,7 @@ including by open source projects, vendors, standards groups, analysts, journali
   - Relationships: properties that connect two classes.
   - Attributes: properties that describe an individual class.
 - SeeAlso:: https://enterprise-knowledge.com/whats-the-difference-between-an-ontology-and-a-knowledge-graph/
-- Tags:: data_model
+- Tags:: data model
 
 ### Recurrent neural network (RNN)
 
@@ -74,6 +96,17 @@ including by open source projects, vendors, standards groups, analysts, journali
 - IMDb on RDR: https://relational.fit.cvut.cz/dataset/IMDb
 - SeeAlso:: https://relational.fit.cvut.cz/
 - Tags:: dataset, metadata
+
+### Residual neural network
+
+- A deep learning model with several skipped connections by adding the input and output of a block. This makes the residual, i.e. differences between input and output, learnable.
+- A residual neural network also solves the gradient vanishing problem in a very deep neural network, as some gradients are back-propagated via the skip connections.
+- Tags:: deep learning
+
+### Transformer
+
+- A deep encoder-decoder model that is built upon the [self-attention mechanism](#attention-mechanism). The encoder encodes the input sequence (e.g. how are you &lt;EOS&gt;) by multi-head self-attention layers, while the decoder decodes the target sequence of previous tokens (shifted right by 1, e.g. &lt;BOS&gt; fine thank you) by masked multi-head self-attention laters. The goal is to predict the taget sequence (e.g. fine thank you &lt;EOS&gt;).
+- Tags:: deep learning
 
 ### Venn diagram
 
