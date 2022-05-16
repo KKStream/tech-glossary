@@ -18,6 +18,12 @@ including by open source projects, vendors, standards groups, analysts, journali
 - SeeAlso:: https://machinelearningmastery.com/the-attention-mechanism-from-scratch/
 - Tags:: deep learning
 
+### Autoencoder
+
+- An autoencoder is a neural network consist of an encoder network and a decoder network.
+- The encoder compresses the input to latent embeddings.
+- The decoder decompresses the latent embeddings and reconstructs the input.
+
 ### Bag-of-words
 
 - is a simplifying representation used in natural language processing and information retrieval. In this model, a text (such as a sentence or a document) is represented as the bag (multiset) of its words, disregarding grammar and even word order but keeping multiplicity.
@@ -41,12 +47,32 @@ including by open source projects, vendors, standards groups, analysts, journali
 - This term generally refers to a set of data preprocessing methods to increase the diversity of input data for training a noise-tolerant model and to avoid overfitting.
 - For example, in computer vision, an input image may be transformed by random rotation, random cropping, brightness adjustment, or other transformations and their combinations.
 
+### Diffusion model
+
+- A diffusion model is a [generative](#generative-model). It assumes true data samples can be converted to pure noises, and learns how to "denoise" pure noises into true data samples.
+
+### Discriminitive model
+
+- A model that aims to learn how to discriminate, or differentiate, from the given information. Most of the traditional machine learning models are discriminitive. For example, a classifier discriminates two samples by their labels, a regressor finds the differences to the predicted value, and a cluster gathers similar information while distances from the other clusters.
+- Contrast to [generative model](#generative-model)
+
 ### Dropout
 
 - Dropout is a layer used in deep neural network to avoid overfitting by randomly masking (dropping) the output of a neuron in each iteration.
 - In forward propagation, the outputs of masked neurons are 0, so they does not contribute to the next layer.
 - In backward propagation, the gradients of masked neurons are also 0, so they does not get updated.
 - Tags:: deep learning, regularization
+
+### Generative advisarial network (GAN)
+- GAN is an architecture of deep neural networks which consist of a generator (i.e. a [generative](#generative-model) network) and a discriminator (i.e. a [discriminitive](#discriminitive-model) network).
+- The generator produces fake samples from a sampled distribution (e.g. Gaussian noise) which should be as close as true samples.
+- The discriminator learns how to differentiate fake samples from true samples.
+
+### Generative model
+
+- The goal of a generative model is to learn how to produce new data from given data samples.
+- It is widely used in video/image/speech synthesis and simulation.
+- Contrast to [discriminitive model](#discriminitive-model)
 
 ### Knowledge Graph (KG)
 
@@ -107,6 +133,11 @@ including by open source projects, vendors, standards groups, analysts, journali
 
 - A deep encoder-decoder model that is built upon the [self-attention mechanism](#attention-mechanism). The encoder encodes the input sequence (e.g. how are you &lt;EOS&gt;) by multi-head self-attention layers, while the decoder decodes the target sequence of previous tokens (shifted right by 1, e.g. &lt;BOS&gt; fine thank you) by masked multi-head self-attention laters. The goal is to predict the taget sequence (e.g. fine thank you &lt;EOS&gt;).
 - Tags:: deep learning
+
+### Variational autoencoder (VAE)
+
+- A VAE follows a classical [autoencoder](#autoencoder) architecture, only that the latent embeddings are parameters of a distribution (usually Gaussian). Therefore, the decoder randomly samples from the distribution and reconstructs the input.
+- A VAE provides highly continuous and robust embeddings compared to AEs.
 
 ### Venn diagram
 
